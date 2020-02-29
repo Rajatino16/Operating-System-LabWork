@@ -88,6 +88,6 @@ int main()
         write(fd2[1], concat_str, strlen(concat_str)+1); 
         close(fd2[1]); 
   
-        exit(0); 
+        exit(0); // 0 for exit_Success and 1 for exit_failure
     } 
 } 
